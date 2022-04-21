@@ -1,0 +1,32 @@
+# Ejercicios para entregar
+Para la realización de estos ejercicios es necesario tener una cuenta en Docker Hub: hub.docker.com
+
+1. 
+
+Creación de una imagen a partir de un contenedor
+Arranca un contenedor desde una imagen base debian o ubuntu.
+Instala los paquetes inetutils-ping, iproute2 y dnsutils con distintas herramientas de redes.
+Crea una imagen a partir de este contenedor (recuerda que tienes que utilizar el nombre de tu usuario Docker Hub). La imagen se debe llamar <tu_usuario_docker_hub>/curso_docker
+Sube la imagen a Docker Hub.
+Descarga la imagen en otra maquina virtual donde tengas docker instalado, y crea un contenedor a partir de ella. (Si no tienes otra maquina virtual con docker instalado, borra la imagen en tu mquina y bájala de Docker Hub).
+Deberás entregar los siguientes pantallazos comprimidos en un zip o en un documento pdf:
+
+Pantallazo donde se vea la creación del contenedor.
+Pantallazo donde se vea el comando que crea la nueva imagen.
+Pantallazo donde se vea la imagen subida a tu cuenta de Docker Hub.
+Pantalalzo donde se vea la bajada de la imagen y la creación de un nuevo contenedor.
+
+2.
+
+Creación de una imagen a partir de un Dockerfile
+Crea una página web estática, simplemente crea un index.html.
+Crea un fichero Dockerfile que permita crear una imagen con un servidor web sirviendo la página. Puedes usar una imagen base debian o ubuntu, o una imagen que tenga ya un servicio web como hemos explicado en el curso.
+Ejecuta el comando docker que crea la nueva imagen. La imagen se debe llamar <tu_usuario_docker_hub>/httpd.
+Conéctate a Docker Hub y sube la imagen que acabas de crear.
+Descarga la imagen en otra maquina virtual donde tengas docker instalado, y crea un contenedor a partir de ella. (Si no tienes otra maquina virtual con docker instalado, borra la imagen en tu maquina virtual y bájala de Docker Hub).
+Deberás entregar los siguientes pantallazos comprimidos en un zip o en un documento pdf:
+
+Pantallazo donde se vea el contenido del fichero Dockerfile.
+Pantallazo donde se vea el comando que crea la nueva imagen.
+Pantallazo donde se vea la imagen subida a tu cuenta de Docker Hub.
+Pantalalzo donde se vea la bajada de la imagen y la creación de un nuevo contenedor.
