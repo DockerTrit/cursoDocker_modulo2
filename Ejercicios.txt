@@ -35,4 +35,4 @@ Pantalalzo donde se vea la bajada de la imagen y la creación de un nuevo conten
 
 #Info
 
-Los ejercicios se deben de entregar en caso de ser codigo subiendolo al repositorio en caso de imagenes, subir dichas imagenes al repositorio.
+Los ejercicios se deben de entregar en caso de ser código subiendolo al repositorio en caso de imágenes, subir dichas imágenes al repositorio.
